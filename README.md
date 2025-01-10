@@ -1,43 +1,57 @@
-# Scheme-Research-Application
+# 🛠️ **Scheme Research Tool** 📚
 
-**Overview**
-The Scheme Research Tool is an innovative web application designed to streamline the research process for government schemes and programs. Built with cutting-edge technologies like Streamlit, OpenAI GPT-4, LangChain, and FAISS, this tool allows users to extract, summarize, and search key details (such as benefits, eligibility, application process, and required documents) from government scheme URLs and PDFs.
+## 🔍 **Overview**
 
-This tool is especially useful for researchers, policymakers, and anyone involved in social impact work. It saves time by providing instant insights into various government schemes and allows easy querying for specific details.
+The **Scheme Research Tool** is an innovative web application designed to streamline the research process for government schemes and programs. Powered by **Streamlit**, **OpenAI GPT-4**, **LangChain**, and **FAISS**, this tool allows users to easily extract, summarize, and search key details (such as benefits, eligibility, application process, and required documents) from government scheme URLs and PDFs.
 
-**Key Features**
-*OpenAI GPT-4:* Powers query-based responses, offering accurate, specific, and context-aware answers based on the extracted data.
-*LangChain:* Efficient document processing for unstructured data from URLs and PDFs.
-*FAISS:* Fast, high-performance similarity search to match queries with the most relevant documents.
-*Streamlit:* User-friendly interface to interact with the tool and easily navigate through inputs, processing, and results.
-**How It Works**
+This tool is a game-changer for **researchers**, **policymakers**, and anyone in the **social impact** sector, offering quick insights and saving valuable time. 💡
 
-*Input Options:*
+---
 
-Users can either enter individual URLs or upload a text file containing a list of URLs.
-The tool supports URLs that point to both regular web pages and PDFs.
+## ⚡ **Key Features**
 
-*Processing:*
+- **💬 OpenAI GPT-4**: Provides accurate, query-based answers using the latest AI models.
+- **🔄 LangChain**: Handles document processing for unstructured data (URLs and PDFs).
+- **⚡ FAISS**: Enables fast similarity searches, bringing up the most relevant documents.
+- **🖥️ Streamlit**: Offers a simple and interactive interface for users.
 
-If the URL points to a PDF, the tool extracts the text from the document.
-The tool processes the content of the URLs or PDFs to extract essential details about the scheme, including:
-Scheme Benefits
-Application Process
-Eligibility Criteria
-Documents Required
+---
 
-*Querying:*
+## 🚀 **How It Works**
 
-Users can enter specific queries about schemes (e.g., "What are the benefits of Scheme XYZ?").
-The system performs a fast similarity search and provides the most relevant answer based on the processed data.
+### 📝 **Input Options**
+- **Enter URLs**: You can provide individual URLs directly.
+- **Upload File**: Alternatively, upload a text file containing a list of URLs (including PDFs).
 
+### 🔄 **Processing**
+- The tool processes each URL or PDF to extract key scheme details, including:
+  - **Benefits** 🎁
+  - **Application Process** 📝
+  - **Eligibility Criteria** ✔️
+  - **Documents Required** 📑
 
+### 🔎 **Querying**
+- Enter a question (e.g., "What are the benefits of Scheme XYZ?").
+- The tool uses a **fast similarity search** to retrieve the most relevant document, providing a quick and accurate response.
 
-*Prerequisites*
-Python 3.9 or higher
-An OpenAI API key
+---
 
-![Screenshot of the app](/Screenshot 2025-01-10 195403.png)
+## 🛠️ **Prerequisites**
+
+To run the **Scheme Research Tool** locally, make sure you have the following:
+
+- **Python 3.9 or higher** 🐍
+- **OpenAI API Key** (Required for GPT-4)
+
+---
+
+## 🏗️ **Installation**
+
+### 1️⃣ **Clone the Repository**
+
+```bash
+git clone https://github.com/Divyani0823/scheme-research-tool.git
+cd scheme-research-tool
 
 
 
